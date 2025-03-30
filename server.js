@@ -5,6 +5,9 @@ import router from "./routes/UserRouter.js";
 import cors from "cors";
 import RegistrationRouter from "./routes/RegistrationFormRoute.js";
 
+
+
+
 const app = express();
 dotenv.config();
 app.use(cors());
